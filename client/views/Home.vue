@@ -8,14 +8,16 @@
 </template>
 
 <script>
-import Counter from '../components/Counter'
-export default {
-  components:{
-    Counter
-  }
-}
+    import Counter from '../components/Counter'
+    export default {
+        components: {
+            Counter
+        }
+    }
 </script>
 
 <style>
-
+    p {
+        display: none;
+    }
 </style>
