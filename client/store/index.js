@@ -4,7 +4,11 @@ import Vuex from 'vuex'
 Vue.use(Vuex)
 
 const state = {
-  count: 0
+  count: 0,
+  navbar: {
+    title: 'VueLab',
+    backText: 'Back'
+  }
 }
 
 const mutations = {
